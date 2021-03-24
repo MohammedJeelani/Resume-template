@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <h1>Resume Template- Build your resume for free!</h1>
+    </header>
+
+
+    <form id="form"> 
+        <div id="personal">
+        <h3>Personal Details</h3>
+       <div>
+         &nbsp<label for="form-name">Name</labe>
+        <input id="form-name" type="text" placeholder="Enter your name "> </input> 
+        </div>
+
+        <div>
+        <label for="form-email">Email</label>
+        <input id="form-email" type="email" placeholder="Enter your email here" ></input>
+        </div>
+
+        <div>
+        &nbsp<label for="form-dob">D.O.B</label>
+        <input id="form-dob" type="date" placeholder="Enter your DOB"> </input>
+        </div>
+
+        <div>
+        <input id="form-gender" type="radio" name="gender" value="male" >Male </input>
+         <input id="form-gender" type="radio" name="gender" value="female">Female </input>
+        </div>
+        </div>
+
+        <div id="education">
+            <h3>Educational Details</h3>
+            <select id="form-select">
+                <option value="B.E/B.Tech">B.E/B.Tech</option>
+                <option value="BCA/BBA">BCA/BBA</option>
+                <option value="MCA/MCS">MCA/MCS</option>
+                <option value="M.E/M.Tech">M.E/M.Tech</option>
+                <option value="Other">Other</option>
+            </select>
+            
+           <div>
+            <h3>Specialization</h3>
+                <input type="radio" name="" value="CS">Computer science</input>
+                <input type="radio" name="" value="CS">Information Technology</input>
+                <input type="radio" name="" value="CS">Others</input>
+            </div>
+        </div>
+
+        <div id="skills">
+            <h3> Key Skills</h3>
+            <input type="checkbox">C</input> <br>
+            <input type="checkbox">C++</input> <br>
+            <input type="checkbox">Java</input> <br>
+            <input type="checkbox">JavaScript</input> <br>
+            <input type="checkbox">Python</input> <br>
+            <input type="checkbox">Ruby</input> <br>
+            <input type="checkbox">Kotlin</input>
+        </div>
+
+        <div id="projects">
+            <h3>Projects</h3>
+            <label for="form-project-title">Project Title</label> <br>
+            <input id="form-project-title" type="text"> </input> <br> <br> 
+             
+            <label for="form-project-description">Description</label> <br>
+            <textarea id="form-project-description" rows="5" cols="25"></textarea>
+            
+        </div>
+
+       <div> <button id="form-submit" type="submit">Submit</button> </div>
+ </form>
+
+ <script src="app.js"></script>
+</body>
+</html>

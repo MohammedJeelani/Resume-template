@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+     margin: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #cad3c8;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+ 
+form{
+    background-color: #596275;
+    color: #fff;
+    padding: 30px 20px;
+    max-width: 800px;
+    margin: 40px auto;
+
+    
+}
+
+#form-name , #form-email, #form-dob{
+    height:30px;
+    width: 100%;
+    font-family: inherit;
+}
+
+#personal {
+
+    border: 1px solid black;
+}
+
+ select{
+    width:100%;
+    font-size: 15px;
+    font-family: inherit;
+    padding: 10px;
+}
+
+#projects {
+    border: 1px black solid;
+}
+
+#projects input, textarea{
+    width:98%;
+    font-family: inherit;
+}
+#projects input {
+    height: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    color:black;
+    
+}
+
+#education{
+    border: 1px black solid;
+    
+}
+#education select{
+    width:98%;
+}
+
+#skills{
+    border: 1px black solid;
+}
+
+button{
+    background-color: #cad3c8;
+    border: 1px solid #cad3c8;
+    font-size: 20px;
+    font-family: inherit;
+    padding: 10px;
+    border-radius: 3px;
+}
